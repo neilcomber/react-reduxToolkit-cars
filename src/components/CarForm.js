@@ -7,8 +7,8 @@ function CarForm() {
     const { name, cost } = useSelector((state) => {
         return {
             name: state.form.name,
-            cost: state.form.cost
-        }
+            cost: state.form.cost,
+        };
     });
 
 
